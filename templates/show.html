@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/master.css') }}">
+  <title>Альманах Адміна</title>
+</head>
+<body>
+  <div class="wrap">
+    <div>
+      <ul>
+        <li><a href="/">Головна</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      {% for i in img %}
+      <div><img src="{{root}}/{{i}}" class="page"></div>
+      {% endfor %}
+    </div>
+    <div></div>
+  </div>
+</body>
+</html>

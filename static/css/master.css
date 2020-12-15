@@ -1,0 +1,11 @@
+.wrap{
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-column-gap: 20px;
+}
+.content{
+  overflow-x: hidden;
+}
+.content:only-child{
+  max-width: 100%;
+}

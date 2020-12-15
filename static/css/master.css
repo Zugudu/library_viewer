@@ -6,6 +6,7 @@
 .content{
   overflow-x: hidden;
 }
-.content:only-child{
-  max-width: 100%;
+.page{
+  width: 100%;
+  display: inline-block;
 }
